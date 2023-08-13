@@ -1,0 +1,68 @@
+.container {
+  margin-top: 10em;
+
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 5em;
+}
+
+.cards_container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 5em;
+}
+
+.card_image_container:hover {
+  background-image: url(../public/item.png);
+  background-size: fill;
+  background-repeat: no-repeat;
+background-position: center;
+  background-origin: content-box;
+}
+
+.card img{
+  height: auto;
+  width: 100%;
+}
+
+.card:first-child{
+    padding-left: 0;
+}
+.card:last-child{
+    padding-right: 0;
+}
+.card {
+  padding: 0.5em;
+}
+
+.card p{
+
+ padding-top: 0.5em;
+ padding-left: 0.25em;
+}
+
+
+.card:hover{
+
+  cursor: pointer;
+ }
+
+.card_image {
+  height: auto;
+  width: 100%;
+  
+filter: brightness(90%);
+
+}
+.card_image:hover{
+    opacity: 0;
+    transition: all ease 0.3s;
+    
+}

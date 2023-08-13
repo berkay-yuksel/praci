@@ -1,0 +1,91 @@
+.container {
+  padding: 12%;
+  padding-top: 10em;
+height: 100vh;
+}
+
+
+.names_container h1 {
+  font-size: 1em;
+  padding-bottom: 1em;
+
+}
+.names_container h2 {
+  font-size: 5em;
+  font-weight: 200;
+  padding: 0.2em;
+}
+
+.names_container h2:hover {
+  text-decoration: line-through;
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+
+.images_container {
+  width: 20em;
+  height: 20em;
+  visibility: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -7;
+}
+
+
+.cortina:hover ~ .images_container {
+  
+  top: -650px;
+  left: 800px;
+  width: 30em;
+  height: 30em;
+  transition: all 0.3s ease;
+  background: url("../public/2.png");
+  visibility: visible;
+}
+
+.oyster:hover ~ .images_container {
+
+  top: -600px;
+  left: 820px;
+  width: 40em;
+  height: 30em;
+  transition: all 0.3s ease;
+  background: url("../public/item.png");
+  visibility: visible;
+}
+
+.domino:hover ~ .images_container {
+
+  top: -550px;
+  left: 840px;
+  width: 30em;
+  height: 40em;
+  transition: all 0.3s ease;
+  background: url("../public/bg.jpg");
+  visibility: visible;
+}
+
+.ave:hover ~ .images_container {
+
+  top: -500px;
+  left: 860px;
+  width: 35em;
+  height: 35em;
+  transition: all 0.3s ease;
+  background: url("../public/model.png");
+  visibility: visible;
+}
+
+.ocean:hover ~ .images_container {
+
+  top: -450px;
+  left: 880px;
+  width: 30em;
+  height: 30em;
+  transition: all 0.3s ease;
+  background: url("../public/2.png");   
+  visibility: visible; visibility: visible;
+}
+
