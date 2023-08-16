@@ -25,11 +25,14 @@
   background-repeat: no-repeat;
 background-position: center;
   background-origin: content-box;
+  border-radius: 1%;
 }
 
-.card img{
+.card_image{
   height: auto;
   width: 100%;
+  border-radius: 1%;
+  filter: brightness(90%);
 }
 
 .card:first-child{
@@ -40,6 +43,7 @@ background-position: center;
 }
 .card {
   padding: 0.5em;
+  border-radius: 1%;
 }
 
 .card p{
@@ -54,13 +58,7 @@ background-position: center;
   cursor: pointer;
  }
 
-.card_image {
-  height: auto;
-  width: 100%;
-  
-filter: brightness(90%);
 
-}
 .card_image:hover{
     opacity: 0;
     transition: all ease 0.3s;

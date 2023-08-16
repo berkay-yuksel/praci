@@ -1,0 +1,39 @@
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2vw;
+}
+
+.model_image {
+    width: 100%;
+    height: 75vh;
+}
+
+.item_image{
+    width: 48vw;
+    height: auto;
+    object-fit: cover;
+}
+
+.items_container{
+ 
+    height: 75vh;
+    padding-left: 1vw;
+    padding-top: 3em;
+}
+
+.nav_container , .info_container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    padding: 0.5em;
+
+}
+
+.upper_container h1{
+    padding-left: 3vw;
+    font-size: 3em;
+}

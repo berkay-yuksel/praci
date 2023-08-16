@@ -1,6 +1,6 @@
 .container{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    
+    position: block;
+    padding-top: 10em;
+    color: #ffffff;
+    background-color: #62665e;
 }
