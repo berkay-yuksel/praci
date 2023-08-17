@@ -1,5 +1,6 @@
 .container{
   filter: brightness(90%);
+  padding: 10em 0;
 }
 
 .video_container video{

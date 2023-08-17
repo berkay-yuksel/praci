@@ -7,6 +7,10 @@ const nextConfig = {
               hostname: 'epic-projects.nyc3.digitaloceanspaces.com',
             
             },
+            {
+              protocol: 'https',
+              hostname: 'www.instagram.com'
+            }
           ],
         },
       }

@@ -12,7 +12,7 @@ const Look = () => {
   const [number,setNumber] = useState(0);
   return (
    <div className={lookStyles.upper_container}>
-    <h1>Mediterreian Look</h1>
+    <h1>MEDITERRANEAN LOOK</h1>
      <div className={lookStyles.container}>
       
       <div>

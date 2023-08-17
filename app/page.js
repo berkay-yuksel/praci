@@ -18,15 +18,18 @@ export default function Home() {
       <Essentials />
       <Collections />
       <Look/>
-     
+      <Categories />
+      <BlogSection/>
+      <Insta/>
+      <BigOne />
     </div>
   );
 }
 
 /*
- <Categories />
-      <BlogSection/>
-      <BigOne />
+
+
+ 
 
 
 
@@ -35,9 +38,9 @@ nav done
 banner done
 essentials done
 collections done
-looks on it!
+looks  done
 (optional thing) not yet
-categories not yet
-insta not yet
+categories done
+insta done
 footer not yet
 */
