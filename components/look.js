@@ -31,7 +31,7 @@ const Look = () => {
       <div  className={lookStyles.nav_container}>
       <h3></h3>
       
-      <div><button disabled={number <= 0 ? true : false} onClick={()=>setNumber(number-1)}>{"<---"}</button><span>{" / "}</span> <button  disabled={number >= products.length-1 ? true : false} onClick={()=>setNumber(number+1)}>{"--->"}</button></div>
+      <div><button disabled={number <= 0 ? true : false} onClick={()=>setNumber(number-1)}>{"prev"}</button><span>{" / "}</span> <button  disabled={number >= products.length-1 ? true : false} onClick={()=>setNumber(number+1)}>{"next"}</button></div>
       
       </div>
       

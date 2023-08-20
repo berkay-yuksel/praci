@@ -8,7 +8,7 @@ import BlogSection from "@/components/blogsection";
 import Insta from "@/components/insta";
 import Look from "@/components/look";
 import Stores from "@/components/stores";
-
+import Subscribe from "@/components/subscribe";
 import Categories from "@/components/categories";
 
 export default function Home() {
@@ -21,7 +21,8 @@ export default function Home() {
       <Categories />
       <BlogSection/>
       <Insta/>
-      <BigOne />
+ <Subscribe/>
+
     </div>
   );
 }
@@ -30,7 +31,7 @@ export default function Home() {
 
 
  
-
+  
 
 
 upper done

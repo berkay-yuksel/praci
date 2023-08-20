@@ -1,12 +1,16 @@
 .container{
-display: flex;
-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: nowrap;
 align-items: center;
 justify-content: center;
-padding-bottom: 10em;
+align-content: stretch;
+padding-bottom: 5em;
+gap: 0px;
+overflow: hidden;
 }
 
 .container img{
     object-fit: cover;
-    padding: 0.5em;
+   
 }
+

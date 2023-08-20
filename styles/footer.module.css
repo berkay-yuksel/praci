@@ -1,6 +1,25 @@
 .container{
-    position: block;
-    padding-top: 10em;
-    color: #ffffff;
-    background-color: #62665e;
+  border-top: 1px solid darkgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5em;
+
+  width: 100%;
+}
+
+
+.container p{
+  padding: 0.3em;
+}
+.container p:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+
+
+.big_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
