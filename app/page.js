@@ -17,9 +17,9 @@ export default function Home() {
       <Banner />
       <Essentials />
       <Collections />
-      <Look/>
       <Categories />
-      <BlogSection/>
+      <BigTwo/>
+      <Look/>
       <Insta/>
  <Subscribe/>
 
@@ -29,7 +29,7 @@ export default function Home() {
 
 /*
 
-
+   <BlogSection/>
  
   
 

@@ -3,7 +3,8 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 2vw;
+    
+    padding: 10em 0 15em 0;
 }
 
 .model_image {
@@ -30,13 +31,13 @@
     justify-content: space-between;
     align-items: center;
     width: 100%; 
-    padding: 0.5em;
+    padding: 0.7em;
 
 }
 
-.upper_container h1{
-    padding-left: 3.5vw;
-    font-size: 2em;
+.nav_container h1{
+    
+    font-size: 1.5em;
     
 }
 
@@ -48,4 +49,16 @@
 .nav_container button:hover{
  text-decoration: underline;
  cursor: pointer;
+}
+.explore{
+    visibility: hidden;
+    margin-top: 10em;
+    padding-right: 4em;
+    text-align: end;
+    font-weight: 500;
+  font-size: 1.5em;
+}
+.explore:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }

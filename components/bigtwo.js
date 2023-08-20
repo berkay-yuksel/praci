@@ -1,11 +1,10 @@
-/*
+
 import bigtwoStyles from "@/styles/bigtwo.module.css";
-*/
 
 
 const BigTwo = () => {
   return (
-    <div  className={blogsectionsStyles.container}>
+    <div  className={bigtwoStyles.container}>
     
 <div>
 
