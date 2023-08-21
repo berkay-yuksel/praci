@@ -1,4 +1,6 @@
 import navbarStyles from "@/styles/navbar.module.css";
+import Image from 'next/image'
+import navPic from '../public/2.png'
 
 const Navbar = () => {
   return (
@@ -32,10 +34,31 @@ const Navbar = () => {
               <p>Gift Sets</p>
               <p>Best Sellers</p>
               <p>New Arrivals</p>
+              <p>Looks</p>
+            
             </div>
-            <div>
-              <span></span>
-              <p>Explore all.</p>
+            <div className={navbarStyles.mini_container}>
+  
+              <div><Image
+           width={200}
+           height={200}
+      src={navPic}
+      alt="Picture of the author"
+
+     priority
+      // blurDataURL="data:..." automatically provided
+      // placeholder="blur" // Optional blur-up while loading
+    /></div>
+           <div>
+            <p>
+            Find your <br/>
+            favorites <br/>
+            with the <br/>
+            Intro Set <br/>
+            </p>
+            <span>Explore now{"-->"}</span>
+           </div>
+                     
             </div>
           </div>
         </span>

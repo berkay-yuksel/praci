@@ -1,109 +1,134 @@
-
 /*  GENERAL   */
 
-.container{
- 
-height: 60px;
-background-color: whitesmoke;
+.container {
+  height: 60px;
+  background-color: whitesmoke;
 
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 0 1em;
-border-bottom: 1px solid darkgrey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1em;
+  border-bottom: 1px solid darkgrey;
 }
 .container div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-   
-    height: 100%;
-
-
+  height: 100%;
 }
 
-.container div span{
-    padding: 0 0.5em;
-    
+.container div span {
+  padding: 0 0.5em;
 }
 
-.container div span:hover{
-    
-    cursor: pointer;
-    font-weight: 500;
+.container div span:hover {
+  cursor: pointer;
+  font-weight: 500;
 }
 
 /*  LOGO   */
 
-.logo{
-    font-size: 2em;
+.logo {
+  font-size: 2em;
 }
 
 /*  SHOP WINDOW   */
 
-.shop:hover{
-height: 100%;
+.shop:hover {
+  height: 100%;
 
-display: flex;
-align-items: center;
-border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
 
+.shop_container {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 2em 8em;
+  cursor: default;
+  visibility: hidden;
+  opacity: 0;
+
+  box-sizing: border-box;
+
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  height: 300px !important;
+  z-index: 2;
+
+  transition: all 0.3s ease;
+}
+
+.shop_container div {
+  display: block;
+  padding: 2em;
+  padding-top: 0em;
 
 }
 
-.shop_container{
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    padding:  2em 8em;
-    cursor: default;
-    visibility: hidden;
-    opacity: 0;
-  
-    box-sizing: border-box;
-
-    position: absolute;
-    top: 100px;
-    left: 0;
-    width: 100%;
-    background-color: whitesmoke;
-    height: 300px !important;
-    z-index: 2;
-
-    transition: all 0.3s ease;
-}
-
-.shop_container div{
-   display: block;
-    padding:  2em ;
-}
 .shop_container div p {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-bottom: 0.2em;
-    cursor: pointer;
-    font-weight: 300;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-bottom: 0.2em;
+  cursor: pointer;
+  font-weight: 300;
 }
 .shop_container div p:hover {
-   text-decoration: underline;
+  text-decoration: underline;
 }
 
 .shop_container div h3 {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    padding-bottom: 0.4em;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-bottom: 0.4em;
+  
 }
 
-.shop:hover  .shop_container{
-opacity: 1;
-visibility: visible;
+.shop:hover .shop_container {
+  opacity: 1;
+  visibility: visible;
+}
 
+.mini_container {
+
+  display: flex !important;
+  justify-content: center !important;
 
 }
 
+.mini_container div {
+  padding: 0 !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  flex-direction: column;
+}
 
+.mini_container div:first-child {
+  padding-right: 1em !important;
+}
+.mini_container div:last-child {
+    padding-right: 5em !important;
+  }
 
+.mini_container div p{
+    padding-bottom: 0.5em;
+    font-size: 1.6em;
+}
+.mini_container div p:hover{
+    text-decoration: none !important;
+}
 
+.mini_container div span{
+   padding-left: 0.8em;
+   }
 
+.mini_container div span:hover{
+ text-decoration: underline;
 
+}

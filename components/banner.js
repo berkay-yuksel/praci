@@ -6,8 +6,8 @@ const Banner = () => {
   return (
     <div className={bannerStyles.container}> 
       <div className={bannerStyles.banner_info}>
-        <h1>Bilmemne Collection</h1>
-        <p>Pearl of mediterrinian seas met with Presi</p>
+        <h1>Pearl Collection</h1>
+        <p>Mediterrinian sea meets Prasi via the Pearl Collection</p>
         <button>EXPLORE NOW</button>
       </div>
 <Image
