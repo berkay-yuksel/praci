@@ -23,7 +23,7 @@ const Essentials = () => {
               // placeholder="blur" // Optional blur-up while loading
             />
           </div>
-          <p>asdşa</p>
+          <p>ESMERALDA RING</p>
         </div>
 
         <div className={essentialsStyles.card}>
@@ -37,7 +37,7 @@ const Essentials = () => {
               // placeholder="blur" // Optional blur-up while loading
             />
           </div>
-          <p>asdşa</p>
+          <p>WHITE NIGHTS</p>
         </div>
 
         <div className={essentialsStyles.card}>
@@ -51,7 +51,7 @@ const Essentials = () => {
               // placeholder="blur" // Optional blur-up while loading
             />
           </div>
-          <p>asdşa</p>
+          <p>PARTITION</p>
         </div>
 
         <div className={essentialsStyles.card}>
@@ -65,7 +65,7 @@ const Essentials = () => {
               // placeholder="blur" // Optional blur-up while loading
             />
           </div>
-          <p>asdşa</p>
+          <p>ARISER</p>
         </div>
 
 
