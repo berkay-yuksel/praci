@@ -11,7 +11,7 @@ const Collections = () => {
         <h2 className={collectionsStyles.ave}>AVE MK II ETT</h2>
         <h2 className={collectionsStyles.ocean}>OCEAN GLAZE</h2>
         <div className={collectionsStyles.images_container}>
-<b>EXPLORE COLLECTION</b>
+<p><b>EXPLORE COLLECTION</b></p>
         </div>
       </div>
     </div>

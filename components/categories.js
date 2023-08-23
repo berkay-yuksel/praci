@@ -11,7 +11,7 @@ const Categories = () => {
         <div className={categoriesStyles.card_one}>
           <div>
             <h4>ALL THE</h4>
-            <h3>BAGS</h3>
+            <h3>RINGS</h3>
             <button>DISCOVER MORE</button>
           </div>
         </div>
@@ -19,7 +19,7 @@ const Categories = () => {
         <div className={categoriesStyles.card_two}>
           <div>
             <h4>ALL THE</h4>
-            <h3>BAGS</h3>
+            <h3>TRAYS</h3>
             <button>DISCOVER MORE</button>
           </div>
         </div>
@@ -27,7 +27,7 @@ const Categories = () => {
         <div className={categoriesStyles.card_three}>
           <div>
             <h4>ALL THE</h4>
-            <h3>BAGS</h3>
+            <h3>SETS</h3>
             <button>DISCOVER MORE</button>
           </div>
         </div>

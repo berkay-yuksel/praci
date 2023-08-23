@@ -5,13 +5,11 @@ import Image from "next/image";
 const Essentials = () => {
   return (
     <div className={essentialsStyles.container}>
-    
       <div className={essentialsStyles.title}>
         <h1>LES INCONTOURNABLES</h1> <p>Shop Now {"->"}</p>
       </div>
 
       <div className={essentialsStyles.cards_container}>
-
         <div className={essentialsStyles.card}>
           <div className={essentialsStyles.card_image_container}>
             <Image
@@ -23,7 +21,10 @@ const Essentials = () => {
               // placeholder="blur" // Optional blur-up while loading
             />
           </div>
-          <p>ESMERALDA RING</p>
+          <span>
+            {" "}
+            <p>ESMERALDA RING</p> <p>$50</p>
+          </span>
         </div>
 
         <div className={essentialsStyles.card}>
@@ -37,7 +38,9 @@ const Essentials = () => {
               // placeholder="blur" // Optional blur-up while loading
             />
           </div>
-          <p>WHITE NIGHTS</p>
+          <span>
+            <p>WHITE NIGHTS</p> <p>$45</p>
+          </span>
         </div>
 
         <div className={essentialsStyles.card}>
@@ -51,7 +54,9 @@ const Essentials = () => {
               // placeholder="blur" // Optional blur-up while loading
             />
           </div>
-          <p>PARTITION</p>
+          <span>
+            <p>PARTITION</p> <p>$125</p>
+          </span>
         </div>
 
         <div className={essentialsStyles.card}>
@@ -65,10 +70,10 @@ const Essentials = () => {
               // placeholder="blur" // Optional blur-up while loading
             />
           </div>
-          <p>ARISER</p>
+          <span>
+            <p>ARISER</p> <p>$75</p>
+          </span>
         </div>
-
-
       </div>
     </div>
   );

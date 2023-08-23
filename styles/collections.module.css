@@ -31,8 +31,11 @@ height: 80vh;
   top: 0;
   left: 0;
   z-index: -7;
+  border-radius: 1%;
 }
-
+.images_container p{
+  padding: 0.2em;
+}
 
 .cortina:hover ~ .images_container {
   

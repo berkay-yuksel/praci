@@ -63,7 +63,7 @@ const Navbar = () => {
           </div>
         </span>
 
-        <span>Contact</span>
+        <span>Blog</span>
       </div>
 
       <div className={navbarStyles.logo}>PRASI</div>
