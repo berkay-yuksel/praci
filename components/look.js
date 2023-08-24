@@ -3,6 +3,7 @@ import { useState } from "react";
 
 import lookStyles from "@/styles/look.module.css";
 import modelPic from "../public/model.png";
+import lookModel from "../public/look.jpg";
 import itemPic from "../public/item.png";
 import Image from "next/image";
 
@@ -12,10 +13,10 @@ const Look = () => {
   const [number, setNumber] = useState(0);
   return (
     <div className={lookStyles.upper_container}>
-   
       <div className={lookStyles.container}>
         <div className={lookStyles.model_container}>
-      
+          <h1>MEDITERRANEAN LOOK</h1>
+
           <Image
             className={lookStyles.model_image}
             src={modelPic}
@@ -25,29 +26,21 @@ const Look = () => {
             // placeholder="blur" // Optional blur-up while loading
           />
         </div>
- 
+
         <div className={lookStyles.items_container}>
           <div className={lookStyles.nav_container}>
-   
-          <h1>MEDITERRANEAN LOOK</h1>
             <div>
-              <button
-                disabled={number <= 0 ? true : false}
-                onClick={() => setNumber(number - 1)}
-              >
-                {"prev"}
-              </button>
-              <span>{" / "}</span>{" "}
-              <button
-                disabled={number >= products.length - 1 ? true : false}
-                onClick={() => setNumber(number + 1)}
-              >
-                {"next"}
-              </button>
+              <span>{"  "}</span>{" "}
             </div>
           </div>
 
-          <div>
+          <div className={lookStyles.slide_container}>
+            <button
+              disabled={number <= 0 ? true : false}
+              onClick={() => setNumber(number - 1)}
+            >
+              {"<"}
+            </button>
             <Image
               className={lookStyles.item_image}
               src={
@@ -62,6 +55,12 @@ const Look = () => {
               // blurDataURL="data:..." automatically provided
               // placeholder="blur" // Optional blur-up while loading
             />
+            <button
+              disabled={number >= products.length - 1 ? true : false}
+              onClick={() => setNumber(number + 1)}
+            >
+              {">"}
+            </button>
             <div className={lookStyles.info_container}>
               <h4>
                 {products[number] === undefined
@@ -75,9 +74,9 @@ const Look = () => {
                 $
               </p>
             </div>
-           <div className={lookStyles.explore}>
-            <p>Explore all looks {"->"}</p>
-           </div>
+            <div className={lookStyles.explore}>
+              <p>Explore all looks {"->"}</p>
+            </div>
           </div>
         </div>
       </div>

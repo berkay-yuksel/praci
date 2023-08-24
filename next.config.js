@@ -11,6 +11,15 @@ const nextConfig = {
               protocol: 'https',
               hostname: 'www.instagram.com'
             }
+            ,
+            {
+              protocol: 'https',
+              hostname: 'prasinous.com'
+            } ,
+            {
+              protocol: 'https',
+              hostname: 'images.pexels.com'
+            }
           ],
         },
       }

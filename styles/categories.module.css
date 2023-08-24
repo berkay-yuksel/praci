@@ -75,7 +75,7 @@
    }
 
   .card_one{
-    background-image: url("https://images.pexels.com/photos/9431876/pexels-photo-9431876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("https://images.pexels.com/photos/9431876/pexels-photo-9431876.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -87,7 +87,7 @@
    
   }
   .card_two{
-    background-image: url("https://images.pexels.com/photos/15567392/pexels-photo-15567392/free-photo-of-masa-dekorasyon-kabuk-taki.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("https://images.pexels.com/photos/15567392/pexels-photo-15567392/free-photo-of-masa-dekorasyon-kabuk-taki.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -100,7 +100,7 @@
   }
 
   .card_three{
-    background-image: url("https://images.pexels.com/photos/13648943/pexels-photo-13648943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("https://images.pexels.com/photos/13648943/pexels-photo-13648943.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

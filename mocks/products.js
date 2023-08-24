@@ -1,17 +1,16 @@
 module.exports = [
   {
-    name: "Basic Tee (Sienna)",
+    name: "ISCHIA",
     price: 3200,
     currency: "USD",
     image:
-      "https://epic-projects.nyc3.digitaloceanspaces.com/react-ecommerce/basic-tee-sienna.jpeg",
+      "https://images.pexels.com/photos/15684128/pexels-photo-15684128/free-photo-of-luks-rock-yuzukler-taki.jpeg",
   },
   {
-    name: "Basic Tee (Black)",
+    name: "FLAWLESS",
     price: 3200,
     currency: "USD",
-    image:
-      "https://epic-projects.nyc3.digitaloceanspaces.com/react-ecommerce/basic-tee-black.jpeg",
+    image: "https://images.pexels.com/photos/7258923/pexels-photo-7258923.png",
   },
   {
     name: "Nomad Tumbler",

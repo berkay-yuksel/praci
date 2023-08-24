@@ -8,23 +8,28 @@
 }
 
 .model_image {
+    border-radius: 0.5%;
     width: 50em;
     height: auto;
-    
+    filter: brightness(95%);
 }
 
 .item_image{
     width: 40em;
     height: auto;
-    
+    border-radius: 0.5%;
     object-fit: cover;
+    filter: brightness(94%);
 }
 
 .items_container{
- 
+
     height: 75vh;
     padding-left: 1vw;
     padding-top: 5em;
+}
+.items_container:hover{
+    cursor: pointer;
 }
 
 .nav_container , .info_container{
@@ -32,25 +37,21 @@
     justify-content: space-between;
     align-items: center;
     width: 100%; 
-    padding: 0.7em;
+    padding: 0 1.4em;
 
+}
+.info_container {
+margin-top: -23.5vh;
 }
 
 .nav_container h1{
     
     font-size: 1.5em;
+    padding-bottom: 1em;
     
 }
 
-.nav_container button{
-    background-color: transparent;
-    border: none;
-    font-size: 0.9em;
-}
-.nav_container button:hover{
- text-decoration: underline;
- cursor: pointer;
-}
+
 .explore{
     visibility: hidden;
     margin-top: 10em;
@@ -62,4 +63,31 @@
 .explore:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+.slide_container{
+    padding-top: 5em;
+}
+.slide_container button{
+    position: relative;
+    top: -24.1vh;
+    height: 49vh;
+    width: 20px;
+    background:transparent;
+    border: none;
+    font-size: large;
+  
+}
+.slide_container button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+   }
+
+
+
+.model_container h1{
+    position: relative;
+    top:50vh;
+    left: 10vh;
+    
+    
 }

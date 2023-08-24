@@ -8,7 +8,7 @@ const Collections = () => {
         <h2 className={collectionsStyles.cortina}>CORTINA SUMMER</h2>
         <h2 className={collectionsStyles.oyster}>OYSTER NIRVANA</h2>
         <h2 className={collectionsStyles.domino}>DOMINO ANGELES</h2>
-        <h2 className={collectionsStyles.ave}>AVE MK II ETT</h2>
+        <h2 className={collectionsStyles.ave}>AVE OMAK III</h2>
         <h2 className={collectionsStyles.ocean}>OCEAN GLAZE</h2>
         <div className={collectionsStyles.images_container}>
 <p><b>EXPLORE COLLECTION</b></p>
