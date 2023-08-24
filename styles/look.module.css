@@ -11,7 +11,7 @@
     border-radius: 0.5%;
     width: 50em;
     height: auto;
-    filter: brightness(95%);
+   
 }
 
 .item_image{
@@ -19,7 +19,7 @@
     height: auto;
     border-radius: 0.5%;
     object-fit: cover;
-    filter: brightness(94%);
+    filter: brightness(95%);
 }
 
 .items_container{
@@ -88,6 +88,6 @@ margin-top: -23.5vh;
     position: relative;
     top:50vh;
     left: 10vh;
-    
+   
     
 }
