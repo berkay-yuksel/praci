@@ -1,10 +1,13 @@
 import categoriesStyles from "@/styles/categories.module.css";
-
+import Link from "next/link";
 const Categories = () => {
   return (
     <div className={categoriesStyles.container}>
       <div className={categoriesStyles.title}>
-        <h1>LES INCONTOURNABLES</h1> <p>Shop Now {"->"}</p>
+        <h1>FEATURED CATEGORIES</h1> <p>
+          <Link href={"categories"}>explore all {"->"}  </Link>
+          
+        </p>
       </div>
 
       <div className={categoriesStyles.cards_container}>
@@ -12,7 +15,7 @@ const Categories = () => {
           <div>
             <h4>ALL THE</h4>
             <h3>RINGS</h3>
-            <button>DISCOVER MORE</button>
+            <button><Link href={"categories/rings"}>DISCOVER MORE </Link></button>
           </div>
         </div>
 
@@ -20,15 +23,15 @@ const Categories = () => {
           <div>
             <h4>ALL THE</h4>
             <h3>TRAYS</h3>
-            <button>DISCOVER MORE</button>
+            <button><Link href={"categories/trays"}>DISCOVER MORE </Link></button>
           </div>
         </div>
 
         <div className={categoriesStyles.card_three}>
           <div>
             <h4>ALL THE</h4>
-            <h3>SETS</h3>
-            <button>DISCOVER MORE</button>
+            <h3>GIFT SETS</h3>
+            <button><Link href={"categories/gift_sets"}>DISCOVER MORE </Link></button>
           </div>
         </div>
       </div>

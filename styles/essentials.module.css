@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1em 3vw;
+  padding: 0em 3vw;
 }
 
 .cards_container {
@@ -16,7 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1em 3vw;
+  padding: 0.5em 3vw;
   
 }
 .card_image_container{

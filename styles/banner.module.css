@@ -18,6 +18,7 @@
   width: 500px;
   font-weight: 300;
   z-index: 1;
+
 }
 .banner_info h1 {
   font-size: 3em;
@@ -40,7 +41,86 @@
   border: none;
 }
 
-.banner_info button:hover{
+.banner_info button:hover {
   background-color: rgba(151, 151, 151, 0.255);
+}
 
+@media (min-width: 1800px) and (max-width: 2222px) {
+  .banner_pic {
+    height: 50vw;
+    object-fit: cover;
+  
+  }
+  .banner_info {
+    left: 12.2vw;
+    top: 39vw;
+  }
+}
+
+@media (min-width: 2223px) and (max-width: 2250px) {
+  .banner_pic {
+    object-fit: cover;
+    object-position: 50% 10%;
+    height: 43vw;
+
+  }
+  .banner_info {
+    left: 15vw;
+    top: 35vw;
+}
+}
+
+@media (min-width: 2251px) and (max-width: 2358px) {
+  .banner_pic {
+    
+    object-fit: cover;
+    object-position: 50% 15%;
+    height: 41vw;
+  }
+  .banner_info {
+    left: 14.2vw;
+    top: 32vw;
+    font-size: 1.1em;
+    width: 600px;
+  }
+}
+
+@media (min-width: 2359px) and (max-width: 2850px) {
+  .banner_pic {
+ 
+    object-fit: cover;
+    object-position: 50% 15%;
+    height: 40vw;
+    margin-bottom: -5em;
+  }
+  .banner_info {
+    left: 14.2vw;
+    top: 32vw;
+    font-size: 1.1em;
+    width: 600px;
+  }
+}
+
+@media (min-width: 2851px) {
+  .banner_pic {
+    object-fit: cover;
+    object-position: 50% 37%;
+    height: 27vw;
+  
+  }
+  .banner_info {
+    left: 17vw;
+    top: 21vw;
+    font-size: 1.3em;
+    width: 1000px;
+
+  }
+  .banner_info button {
+    background-color: rgba(131, 126, 126, 0.255);
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 0.5em;
+    border: none;
+    font-size: 0.8em;
+  }
 }

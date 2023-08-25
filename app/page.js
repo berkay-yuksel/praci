@@ -3,7 +3,7 @@ import Essentials from "@/components/essentials";
 import Collections from "@/components/collections";
 import BigOne from "@/components/bigone";
 
-import BigTwo from "@/components/bigtwo";
+import BigTwo from "@/components/blogsection";
 import BlogSection from "@/components/blogsection";
 import Insta from "@/components/insta";
 import Look from "@/components/look";
@@ -18,7 +18,7 @@ export default function Home() {
       <Essentials />
       <Collections />
       <Categories />
-      <BigTwo/>
+      <BlogSection/>
       <Look/>
       <Insta/>
  <Subscribe/>

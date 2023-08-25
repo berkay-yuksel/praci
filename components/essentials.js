@@ -2,15 +2,18 @@ import essentialsStyles from "@/styles/essentials.module.css";
 import modelPic from "../public/model.png";
 import Image from "next/image";
 
+import Link from "next/link"
+
 const Essentials = () => {
   return (
     <div className={essentialsStyles.container}>
       <div className={essentialsStyles.title}>
-        <h1>LES INCONTOURNABLES</h1> <p>Shop Now {"->"}</p>
+        <h1>BEST SELLERS</h1> <p><Link href={`collections/essentials`}>explore all {"->"}  </Link></p>
       </div>
 
       <div className={essentialsStyles.cards_container}>
         <div className={essentialsStyles.card}>
+        <Link href={`item/esmeralda_ring`}>
           <div className={essentialsStyles.card_image_container}>
             <Image
               className={essentialsStyles.card_image}
@@ -25,6 +28,8 @@ const Essentials = () => {
             {" "}
             <p>ESMERALDA RING</p> <p>$50</p>
           </span>
+
+          </Link>
         </div>
 
         <div className={essentialsStyles.card}>

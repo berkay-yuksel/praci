@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1em 2vw;
+    padding: 0em 2vw;
   }
   
   .cards_container {
@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1em 2vw;
+    padding: 0.5em 2vw;
   
   }
 
@@ -33,7 +33,7 @@
    height: 100%;
     font-size: 3em;
   }
-
+ 
   .cards_container div div:hover{
     cursor: pointer;
   }
@@ -44,17 +44,16 @@
     line-height: 1.2rem;
     padding: 0.7em 2.5em;
     background-color: transparent;
-    color: antiquewhite;
     border: 1px solid antiquewhite;
     border-radius:3%;
+    color: antiquewhite;
 }
 
-
-.cards_container div div button:hover{
+.cards_container div div button:hover  {
     transition: background-color 0.6s;
     cursor: pointer;
     background-color: antiquewhite;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0) !important;
 
 }
   .cards_container div div:hover{
@@ -63,16 +62,20 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.15);
     transition: background-color 0.4s;
+
    }
 
    .cards_container div h4{
     font-size: 1.15em;
     font-weight: 300;
+    line-height: 0.9em;
    }
    .cards_container div h3{
     font-size: 1.3em;
+    font-family: preci;
 
    }
+
 
   .card_one{
     background-image: url("https://images.pexels.com/photos/9431876/pexels-photo-9431876.jpeg");
@@ -81,9 +84,9 @@
     background-position: center;
     background-origin: content-box;
     border-radius: 1%;
-    width: 30vw;
-    height: 36.5vw;
-    color: antiquewhite;
+    width: 33vw;
+    height: 42.5vw;
+    color: antiquewhite 
    
   }
   .card_two{
@@ -93,8 +96,8 @@
     background-position: center;
     background-origin: content-box;
     border-radius: 1%;
-    width: 30vw;
-    height: 36.5vw;
+    width: 33vw;
+    height: 42.5vw;
     margin: 0 1em;
     color: antiquewhite;
   }
@@ -106,8 +109,8 @@
     background-position: center;
     background-origin: content-box;
     border-radius: 1%;
-    width: 30vw;
-    height: 36.5vw;
+    width: 33vw;
+    height: 42.5vw;
     color: antiquewhite;
   }
 

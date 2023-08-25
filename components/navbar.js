@@ -1,7 +1,7 @@
 import navbarStyles from "@/styles/navbar.module.css";
 import Image from 'next/image'
 import navPic from '../public/2.png'
-
+import Link from "next/link";
 const Navbar = () => {
   return (
     <header className={navbarStyles.container}>
@@ -66,7 +66,7 @@ const Navbar = () => {
         <span>Blog</span>
       </div>
 
-      <div className={navbarStyles.logo}>PRASI</div>
+      <div className={navbarStyles.logo}><Link href={"/"}>PRASI</Link></div>
       <div>
         <span>About</span>
 

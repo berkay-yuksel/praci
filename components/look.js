@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-
+import Link from "next/link";
 import lookStyles from "@/styles/look.module.css";
 import modelPic from "../public/model.png";
 import lookModel from "../public/look.jpg";
@@ -41,6 +41,7 @@ const Look = () => {
             >
               {"<"}
             </button>
+            <Link href={`item/${products[number].name}`}> 
             <Image
               className={lookStyles.item_image}
               src={
@@ -55,25 +56,31 @@ const Look = () => {
               // blurDataURL="data:..." automatically provided
               // placeholder="blur" // Optional blur-up while loading
             />
+            </Link>
             <button
               disabled={number >= products.length - 1 ? true : false}
               onClick={() => setNumber(number + 1)}
             >
               {">"}
             </button>
+            <Link href={`item/${products[number].name}`}> 
             <div className={lookStyles.info_container}>
+      
               <h4>
                 {products[number] === undefined
                   ? products[0].name
                   : products[number].name}
               </h4>
+            
               <p>
                 {products[number] === undefined
                   ? products[0].price
                   : products[number].price}
                 $
               </p>
+          
             </div>
+            </Link>
             <div className={lookStyles.explore}>
               <p>Explore all looks {"->"}</p>
             </div>
