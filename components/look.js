@@ -3,8 +3,6 @@ import { useState } from "react";
 import Link from "next/link";
 import lookStyles from "@/styles/look.module.css";
 import modelPic from "../public/model.png";
-import lookModel from "../public/look.jpg";
-import itemPic from "../public/item.png";
 import Image from "next/image";
 
 import products from "@/mocks/products";
