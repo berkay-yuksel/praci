@@ -4,6 +4,8 @@
 }
 
 .images_container {
+  padding-top: 0.5em;
+
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -13,7 +15,7 @@
   width: 30vw;
   height: 45vw;
   object-fit: cover;
-  border-radius: 2%;
+  border-radius: 12px;
 }
 
 .info_container {
@@ -21,17 +23,19 @@
   height: 100%;
   padding: 3em;
   position: sticky;
-  top: 7vw;
+  top: 12vw;
   line-height: 3em;
 }
 .upper_tag {
+  display: none;
   font-weight: 900;
-  border: 1px solid rgba(0, 0, 0, 0.213);
+  border: 1px solid rgba(0, 0, 0, 0.711);
   width: max-content;
   padding: 0.3em;
   line-height: 1em;
-  color: black;
+  color:rgba(0, 0, 0, 0.711);
   border-radius: 2%;
+  font-size: 0.7em;
 }
 .info_container h1 {
   font-size: 2vw;
@@ -90,20 +94,68 @@ width: 5vw;
 .size_material_container div {
   padding-right: 1em;
 }
+.size_material_container div p {
+  font-weight: 500;
+}
+.size_material_container div p:hover {
+cursor: pointer;
 
+}
 
 
 .buttons_container button {
+background-color: transparent;
   width: 100%;
-  padding: 1em;
+ height: 4em;
   margin: 0.5em 0;
+  border-radius: 9px;
+ border: 1px solid darkgray;
 }
 
-.extra_infos{
-    margin-top: 1em;
-    border-top: 1px solid rgb(0, 0, 0);
+.buttons_container button:hover {
+cursor: pointer;
 }
+
+
+.extra_infos{
+  line-height: 1.7em;
+    margin-top: 1em;
+ 
+    width: 100%;
+   
+  
+}
+
+.featured_info{
+margin-top: 1em;
+
+}
+
+.featured_info b:hover{
+text-decoration: underline;
+cursor: pointer;
+  
+  }
+
+.extra_infos div div{
+
+  border-bottom: 1px solid rgb(77, 70, 70);
+  height: 2em;
+}
+.extra_infos div div:hover{
+cursor: pointer;
+}
+.extra_infos div p{
+  display: none;
+  margin-block-start:0em;
+  margin-block-end: 0em;
+  height: 2em;
+  border-bottom: 1px solid rgb(77, 70, 70);
+}
+
 
 .other_container {
     height: 50vh;
+    margin-top: 10em;
+    border-top: 1px solid rgba(146, 138, 128, 0.291);
   }
