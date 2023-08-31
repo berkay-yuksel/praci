@@ -54,4 +54,11 @@ module.exports = [
     image:
       "https://epic-projects.nyc3.digitaloceanspaces.com/react-ecommerce/machine-pen-pencil-set.jpeg",
   },
+  {
+    name: "Machined Pen & Pencil",
+    price: 7000,
+    currency: "USD",
+    image:
+      "https://epic-projects.nyc3.digitaloceanspaces.com/react-ecommerce/machine-pen-pencil-set.jpeg",
+  },
 ];

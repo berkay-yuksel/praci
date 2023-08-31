@@ -1,6 +1,10 @@
 import collectionStyles from "@/styles/collection.module.css";
 import Image from "next/image";
-import modelPic from "@/public/model.png";
+import colLeft from "@/public/col_left.webp"
+import colRight from "@/public/col_right.webp"
+import colMid from "@/public/col_mid.webp"
+import colMain from "@/public/col_main.webp"
+
 import products from "@/mocks/products";
 import Link from "next/link";
 const Page = ({ params }) => {
@@ -10,7 +14,7 @@ const Page = ({ params }) => {
         <div className={collectionStyles}>
           <Image
             className={collectionStyles}
-            src={modelPic}
+            src={colMain}
             alt="Picture of the author"
             priority
             // blurDataURL="data:..." automatically provided
@@ -21,7 +25,7 @@ const Page = ({ params }) => {
         <div>
           <Image
             className={collectionStyles}
-            src={modelPic}
+            src={colLeft}
             alt="Picture of the author"
             priority
             // blurDataURL="data:..." automatically provided
@@ -29,7 +33,7 @@ const Page = ({ params }) => {
           />
           <Image
             className={collectionStyles}
-            src={modelPic}
+            src={colMid}
             alt="Picture of the author"
             priority
             // blurDataURL="data:..." automatically provided
@@ -37,7 +41,7 @@ const Page = ({ params }) => {
           />
           <Image
             className={collectionStyles}
-            src={modelPic}
+            src={colRight}
             alt="Picture of the author"
             priority
             // blurDataURL="data:..." automatically provided
@@ -46,9 +50,9 @@ const Page = ({ params }) => {
         </div>
       </div>
       <div className={collectionStyles.info_container}>
-        <h1>{params.slug}</h1>
+        <h1>Moss Collection</h1>
         <p>
-          aasdsadas asd asd as dasd as das dasdasd asd asd asd ada sdasdasd{" "}
+        Discover a world of charm and sophistication with the Moss Collection that seamlessly blend artistry and style of the nature.
         </p>
       </div>
       <div className={collectionStyles.sort_container}>
@@ -89,8 +93,8 @@ const Page = ({ params }) => {
           </Link>
         ))}
       </div>
-      <div>
-        extras here
+      <div className={collectionStyles.explore_container}>
+<b>     EXPLORE MORE SECTION</b>
       </div>
     </div>
   );
