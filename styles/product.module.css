@@ -27,7 +27,7 @@
   line-height: 3em;
 }
 .upper_tag {
-  display: none;
+  
   font-weight: 900;
   border: 1px solid rgba(0, 0, 0, 0.711);
   width: max-content;
