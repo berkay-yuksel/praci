@@ -5,7 +5,7 @@ const Categories = () => {
     <div className={categoriesStyles.container}>
       <div className={categoriesStyles.title}>
         <h1>FEATURED CATEGORIES</h1> <p>
-          <Link href={"/categories"}>explore all {"->"}  </Link>
+          <Link href={"/categories/all"}>explore all {"->"}  </Link>
           
         </p>
       </div>
