@@ -11,7 +11,9 @@ const Navbar = () => {
           <div className={navbarStyles.shop_container}>
             <div>
               <h3>JEWELRY</h3>
+              <Link href="/categories/7000">
               <p>Earrings</p>
+              </Link>
               <p>Necklaces</p>
               <p>Rings</p>
               <p>Bracelets</p>

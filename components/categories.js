@@ -4,9 +4,9 @@ const Categories = () => {
   return (
     <div className={categoriesStyles.container}>
       <div className={categoriesStyles.title}>
-        <h1>FEATURED CATEGORIES</h1> <p>
-          <Link href={"/categories/all"}>explore all {"->"}  </Link>
-          
+        <h1>FEATURED CATEGORIES</h1>{" "}
+        <p>
+          <Link href={"/categories/all"}>explore all {"->"} </Link>
         </p>
       </div>
 
@@ -15,7 +15,9 @@ const Categories = () => {
           <div>
             <h4>ALL THE</h4>
             <h3>RINGS</h3>
-            <button><Link href={"categories/rings"}>DISCOVER MORE </Link></button>
+            <button>
+              <Link href={"categories/rings"}>DISCOVER MORE </Link>
+            </button>
           </div>
         </div>
 
@@ -23,7 +25,9 @@ const Categories = () => {
           <div>
             <h4>ALL THE</h4>
             <h3>TRAYS</h3>
-            <button><Link href={"categories/trays"}>DISCOVER MORE </Link></button>
+            <button>
+              <Link href={"categories/trays"}>DISCOVER MORE </Link>
+            </button>
           </div>
         </div>
 
@@ -31,7 +35,9 @@ const Categories = () => {
           <div>
             <h4>ALL THE</h4>
             <h3>GIFT SETS</h3>
-            <button><Link href={"categories/gift_sets"}>DISCOVER MORE </Link></button>
+            <button>
+              <Link href={"categories/gift_sets"}>DISCOVER MORE </Link>
+            </button>
           </div>
         </div>
       </div>

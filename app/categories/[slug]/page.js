@@ -1,14 +1,15 @@
-import collectionsPageStyles from "@/styles/collectionspage.module.css";
+import categoriesPageStyles from "@/styles/categoriespage.module.css";
 import products from "@/mocks/products";
 import modelPic from "@/public/model.png";
 import Image from "next/image";
 import Link from "next/link";
 const Page = ({ params }) => {
   return (
-    <div className={collectionsPageStyles.container}>
-      <h1>Explore Categories of </h1>
-      <div className={collectionsPageStyles.categories_container}>
+    <div className={categoriesPageStyles.container}>
+      <h1>Explore Categories </h1>
+      <div className={categoriesPageStyles.categories_container}>
         <div>
+        <Link href="/categories/all">
           <Image
             className=""
             src={modelPic}
@@ -17,7 +18,7 @@ const Page = ({ params }) => {
             // blurDataURL="data:..." automatically provided
             // placeholder="blur" // Optional blur-up while loading
           />
-          <h5>All Items</h5>
+          <h5>All Items</h5></Link>
         </div>
         <div>
           <Link href="/categories/3300">
@@ -98,18 +99,18 @@ const Page = ({ params }) => {
           <h5>Dresses</h5>
         </div>
       </div>
-      <div className={collectionsPageStyles.filter_container}>
+      <div className={categoriesPageStyles.filter_container}>
         <div>
           {" "}
           <input
-            className={collectionsPageStyles.search_input}
+            className={categoriesPageStyles.search_input}
             type="text"
             id="lname"
             name="lname"
             placeholder="Search"
           />
         </div>
-        <div className={collectionsPageStyles.onoff}>
+        <div className={categoriesPageStyles.onoff}>
           <input type="checkbox" id="switch" />
           <p> Only show in stock items.</p>
         </div>
@@ -145,9 +146,9 @@ const Page = ({ params }) => {
           <button>More Filters</button>
         </div>
       </div>
-      <div className={collectionsPageStyles.items_container}>
+      <div className={categoriesPageStyles.items_container}>
         <p>123132 items</p>
-        <div>
+        <div className={categoriesPageStyles.products_container}>
           {products
             .filter(function (product) {
               if (params.slug === "all") {
@@ -158,7 +159,7 @@ const Page = ({ params }) => {
             })
             .map((product) => (
               <Link key={product.id} href={`/item/${product.name}`}>
-                <div className={collectionsPageStyles.product_card}>
+                <div className={categoriesPageStyles.product_card}>
                   <Image
                     src={`${product.image}`}
                     alt="prduct.link"
@@ -168,7 +169,7 @@ const Page = ({ params }) => {
                     // blurDataURL="data:..." automatically provided
                     // placeholder="blur" // Optional blur-up while loading
                   />
-                  <div className={collectionsPageStyles.product_info}>
+                  <div className={categoriesPageStyles.product_info}>
                     <h5>{product.name}</h5>
                     <p>{product.price}</p>
                   </div>
